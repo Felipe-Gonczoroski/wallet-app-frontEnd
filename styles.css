@@ -4,4 +4,171 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "Noto Sans", sans-serif;
+  color: #010400;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #7c7c7c;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7c7c7c;
+  margin: 0px;
+  padding: 0px;
+}
+
+label {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  height: 48px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #06bee1;
+  border-style: solid;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px;
+  box-sizing: border-box;
+  /*Serve para o padding não aumentar o tamanho da box, ou seja, obriga ela manter o mesmo tamanho. */
+}
+
+a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  background-color: #5936cd;
+  height: 56px;
+  width: 432px;
+  border-radius: 12px;
+  color: #f4f4f9;
+  font-size: 16px;
+  font-weight: bold;
+  border-color: #5936cd;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #7a4ee1;
+  border-color: #7a4ee1;
+}
+
+button.small {
+  background-color: #f4f4f9;
+  color: #010400;
+  height: 35px;
+  width: 91px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border-color: #5936cd;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt {
+  margin-top: 16px;
+}
+
+.mt.larger {
+  margin-top: 32px;
+}
+
+.mt.large {
+  margin-top: 24px;
+}
+
+.mt.small {
+  margin-top: 12px;
+}
+
+.mt.smaller {
+  margin-top: 6px;
+}
+
+.logo {
+  width: 88px;
+  height: auto;
+}
+
+.auth-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #5936cd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+  height: auto;
+  min-height: 440px;
+  border-radius: 24px;
+  background-color: #f4f4f9;
+}
+
+.auth-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
 }
