@@ -1,6 +1,6 @@
 # Wallet App Front-end
 
-<img src="https://github.com/Felipe-Gonczoroski/wallet-app-frontEnd/blob/master/src/img/preview.png" alt="Wallet App Front-end Preview" width="550" height="275">
+<img src="https://github.com/Felipe-Gonczoroski/wallet-app-frontEnd/blob/master/src/img/preview.png" alt="Wallet App Front-end Preview" width="675" height="275">
 
 ## Introduction
 
