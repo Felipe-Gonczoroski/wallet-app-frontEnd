@@ -1,5 +1,7 @@
 # Wallet App Front-end
 
+<img src="https://github.com/Felipe-Gonczoroski/wallet-app-frontEnd/blob/master/src/img/preview.png" alt="Wallet App Front-end Preview" width="550" height="275">
+
 ## Introduction
 
 This is a finance management dashboard made with JavaScript, HTML, and CSS. The main objective is to allow the user to add and delete financial transactions (which are saved in the API) and display the monthly balance.
